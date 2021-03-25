@@ -9,6 +9,8 @@ title: Hermanus dog trainer and behaviourist
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
     <link rel="stylesheet" href="/css/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/main.css">
     <title>{{ title }}</title>
   </head>
   <body>
@@ -20,12 +22,11 @@ title: Hermanus dog trainer and behaviourist
           <h3 class="w3-padding-64"><b>Yvonne's<br>Happy Dogs</b></h3>
       </div>
       <div class="w3-bar-block">
-          <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a>
-          <a href="#showcase" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Showcase</a>
-          <a href="#services" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Services</a>
-          <a href="#designers" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Designers</a>
-          <a href="#packages" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Packages</a>
-          <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact</a>
+          <a href="/" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Meet Yvonne</a>
+          <a href="/dog-training-hermanus" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Training</a>
+          <a href="/dog-training-hermanus" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Rehabilitation</a>
+          <a href="#designers" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Adoption</a>
+          <a href="#packages" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Book an Assessment</a>
       </div>
   </nav>
 
@@ -48,7 +49,23 @@ title: Hermanus dog trainer and behaviourist
           <hr style="width:50px;border:5px solid red" class="w3-round">
       </div>
       {{ content | safe }}
+
+      <!-- Contact -->
+      <div class="w3-container" id="contact" style="margin-top:75px">
+          <h1 class="w3-xxxlarge w3-text-red"><b>Contact me.</b></h1>
+          <hr style="width:50px;border:5px solid red" class="w3-round">
+          <p>Contact me for an initial assessment. Please note I am unable to take calls during training, so it is usually better to send me a message via <a href="sms:+27614375079">SMS</a> or <a href="https://api.whatsapp.com/send?phone=27614375079" target="_blank">What's App</a>.</p>
+          <p><a href="https://api.whatsapp.com/send?phone=27614375079" target="_blank" class="w3-button w3-green w3-padding-large w3-hover-black">What's App me</a></p>
+          <p><a href="sms:+27614375079" class="w3-button w3-blue w3-padding-large w3-hover-black">SMS me</a></p>
+          <p>Alternatively you can call me on <a href="tel:+27614375079">+27 61 437 5079</a></p>
+      </div>
   </div>
+
+  <!-- W3.CSS Container -->
+  <div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px">
+      <p class="w3-right">I <i class="fa fa-heart"></i> Hermanus</p>
+  </div>
+
 
   </body>
 </html>

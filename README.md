@@ -25,8 +25,8 @@ npx @11ty/eleventy --input=src --serve
 ## Deploy
 
 ```sh
-./node_modules/.bin/webpack --mode=production --output-path=$(pwd)/_site/
-./node_modules/.bin/sass src/scss:_site/css --style compressed
+npx webpack --mode=production --output-path=$(pwd)/_site/
+npx sass src/scss:_site/css --style compressed
 npx @11ty/eleventy --input=src
 git subtree push --prefix _site origin gh-pages
 git push origin `git subtree split --prefix _site master`:gh-pages --force
