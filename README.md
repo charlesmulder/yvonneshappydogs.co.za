@@ -7,13 +7,13 @@ npm install
 Watch and build `src/index.js` to `dist/main.js`
 
 ```bash
-./node_modules/.bin/webpack -w --mode=development --output-path=$(pwd)/_site/
+npx webpack -w --mode=development --output-path=$(pwd)/_site/
 ```
 
 Watch and build `src/*.scss` to `_site/*.css`
 
 ```bash
-./node_modules/.bin/sass --watch src/scss:_site/css
+npx sass --watch src/scss:_site/css
 ```
 
 Development servers
