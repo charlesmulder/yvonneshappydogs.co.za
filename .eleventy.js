@@ -5,8 +5,8 @@ module.exports = function(eleventyConfig) {
   });
 
   eleventyConfig.addPassthroughCopy("CNAME");
-  eleventyConfig.addPassthroughCopy("src/*.png");
-  eleventyConfig.addPassthroughCopy("src/*.ico");
-  eleventyConfig.addPassthroughCopy("src/*.manifest");
+  eleventyConfig.addPassthroughCopy("*.png");
+  eleventyConfig.addPassthroughCopy("*.ico");
+  eleventyConfig.addPassthroughCopy("*.manifest");
 
 };
