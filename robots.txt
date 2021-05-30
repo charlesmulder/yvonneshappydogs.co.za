@@ -1,0 +1,4 @@
+Sitemap: https://yvonneshappydogs.co.za/sitemap.xml
+
+User-agent: *
+Disallow:
